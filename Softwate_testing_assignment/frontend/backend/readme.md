@@ -7,9 +7,17 @@
   - Validate both fields (required)
   - Ensure email contains "@"
   - Show alert messages based on validation
-- A Python script (`form_receiver.py`) that:
-  - Takes name and email from user input
-  - Prints: "Received data: Name – ___, Email – ___"
+-### Python Script
+- File: `form_input.py`
+- Description: Takes Name and Email as input from user and prints:
+  `Received data: Name – ___, Email – ___`
+- How to run:  
+  Run using terminal → `python form_input.py`
+
+  #form validation video is here ----
+
+  https://drive.google.com/file/d/1QDiga90DYe5VfcSe6XDPbms9Zfi7Bw-K/view?usp=drive_link
+
 
 ## 🛠️ Tools Used
 
