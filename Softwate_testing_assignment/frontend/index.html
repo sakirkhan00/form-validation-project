@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Instagram Style Signup</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="form-container">
+            <h2>Create Account</h2>
+
+            <div id="error-message" class="error-message"></div>
+
+            <form id="signup-form">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="Enter your name"
+                    required>
+                <small></small>
+
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter your email"
+                    required>
+                <small></small>
+
+                <label>Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password"
+                        placeholder="Create password" required>
+                    <span class="toggle"
+                        onclick="togglePassword('password')">👁️</span>
+                </div>
+                <small></small>
+
+                <label>Confirm Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="confirm-password"
+                        placeholder="Confirm password" required>
+                    <span class="toggle"
+                        onclick="togglePassword('confirm-password')">👁️</span>
+                </div>
+                <small></small>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
